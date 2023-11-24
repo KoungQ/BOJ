@@ -2,6 +2,7 @@ package BaekJoon.SevenDwarfs_2309;
 
 import java.util.*;
 
+// 내 풀이 2
 public class Solution_v2 {
     static List<Integer> dwarfs = new ArrayList<>();
     static int sum = 0;

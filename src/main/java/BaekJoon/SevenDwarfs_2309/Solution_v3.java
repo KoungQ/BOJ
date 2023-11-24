@@ -3,6 +3,7 @@ package BaekJoon.SevenDwarfs_2309;
 import java.util.Arrays;
 import java.util.Scanner;
 
+// 강의 풀이
 public class Solution_v3 {
     static int n = 9;
     static int r = 7;

@@ -3,6 +3,7 @@ package BaekJoon.SevenDwarfs_2309;
 import java.util.Arrays;
 import java.util.Scanner;
 
+// 내 풀이 1
 public class Solution_v1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
