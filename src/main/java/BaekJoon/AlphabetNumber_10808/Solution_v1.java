@@ -2,6 +2,7 @@ package BaekJoon.AlphabetNumber_10808;
 
 import java.util.Scanner;
 
+// 내 풀이
 public class Solution_v1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
