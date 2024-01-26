@@ -52,7 +52,7 @@ public class Solution_v1 {
         System.out.println(result);
     }
 
-    static List<Integer> moveRight(List<Integer> queue) {
+    static void moveRight(List<Integer> queue) {
         // 맨 뒤 추출
         int target = queue.remove(queue.size() - 1);
         // 앞에 붙이기
@@ -60,10 +60,9 @@ public class Solution_v1 {
         // 회전 횟수 증가
         result++;
 
-        return queue;
     }
 
-    static List<Integer> moveLeft(List<Integer> queue) {
+    static void moveLeft(List<Integer> queue) {
         // 맨 앞 추출
         int target = queue.remove(0);
 
@@ -72,6 +71,5 @@ public class Solution_v1 {
         // 회전 횟수 증가
         result++;
 
-        return queue;
     }
 }
